@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='flex flex-col items-center h-screen w-screen bg-gradient-to-tr from-violet-500 to-orange-300 p-10'>
+      <body className='flex flex-col items-center min-h-screen w-screen bg-wow p-10'>
         <Navigation title={metadata.title} />
         {children}
       </body>
